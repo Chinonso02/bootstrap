@@ -4,8 +4,16 @@
     box-sizing: border-box;
     font-family: 'Bellota Text', 'cursive';
 }
+
+body{
+    background-color: #F5F5F8;
+}
+
 a{
     text-decoration: none;
+}
+html, body{
+overflow-x: hidden;
 }
 
 .hero{
@@ -49,7 +57,7 @@ a{
 }
 .btn2{
     background-color: white;
-    color: grey;
+    color: #6C89BB;
     border: none;
     padding: 20px 45px;
     border-radius: 60px;
@@ -71,29 +79,42 @@ a{
 .navlink a{
     padding-left: 4rem;
     font-size: 20px;
-    color: grey;
+    color: #6C89BB;
 }
 
 .ri-shield-check-line{
     font-size: 6rem;
     color: rgb(130, 130, 245);
-    padding: 2rem 3rem;
+    padding: 2rem 3.5rem;
 }
 .ri-mail-line{
     font-size: 6rem;
     color: rgb(130, 130, 245);
-    padding: 2rem 3rem;
+    padding: 2rem 3.5rem;
 }
 .ri-dashboard-line{
     font-size: 6rem;
     color: rgb(130, 130, 245);
-    padding: 2rem 3rem;
+    padding: 2rem 3.5rem;
 }
 .security{
     padding-top: 10rem;
 }
+.security p{
+    color: #6C75AA;
+    font-weight: bold;
+}
+.security h2{
+    color: #36187D;
+    font-weight: 600;
+}
+.security h1{
+    color: #36187D;
+    font-weight: 700;
+    font-size: 3rem;
+}
 .icon{
-    box-shadow: 9px 15px 15px rgb(228, 223, 223);
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
 }
 .ri-facebook-fill{
     font-size: 2rem;
@@ -107,9 +128,14 @@ a{
     font-size: 2rem;
     padding: 1.5rem 1.5rem;
 }
-
-.ic{
-    box-shadow: 5px 7px 7px rgb(245, 236, 236);
+.g{
+    color: #36187D;
+    padding-top: 13rem;
+    font-size: 60px;
+    padding-bottom: 4rem;
+}
+.ie{
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
 }
 .plan{
     padding-top: 4rem;
@@ -117,21 +143,255 @@ a{
 .plan a{
     background-color: #EA2396;
     padding: 1.5rem 3rem;
-    color: #FCFFFF;
     font-size: 20px;
     border-radius: 40px;
 }
+
 .ri-global-line{
     font-size: 2rem;
-    padding: 1.5rem 1.5rem;
+    background-color: #F5F5F8;
+    padding: 1.5rem 2rem;
+    color: rgb(130, 130, 245);
 }
 .ri-refresh-line{
     font-size: 2rem;
-    padding: 1.5rem 1.5rem;
+    background-color: #F5F5F8;
+    padding: 1.5rem 2rem;
+    color: rgb(130, 130, 245);
 
 }
 .ri-user-line{
     font-size: 2rem;
-    padding: 1.5rem 1.5rem;
+    background-color: #F5F5F8;
+    padding: 1.5rem 2rem;
+    color: rgb(100, 100, 245);
+}
+.our{
+    padding-top: 5rem;
+    font-size: 3rem;
+    padding-left: 3rem;
+    color: #36187D;
+}
+.ri-arrow-right-s-line{
+    padding-left: 9rem;
+    font-size: 3rem;
+    color: rgb(130, 130, 245);
+}
+.io{
+    background-color: #F5F5F8;
+    padding: 3rem 2rem;
+    border-radius: 50px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+}
+.hs{
+    color: #EA2396;
+}
+.pic{
+    overflow: hidden;
+    border-radius: 50px;
+}
+.pic:hover img{
+    transform: scale(1.3);
+}
+.pic img{
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+.s{
+    background-color: #F5F5F8;
+    padding: 3rem 3rem;
+    border-radius: 50px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+}
+.s h3{
+    color: #36187D;
+}
+.s h5{
+    color: #9AA0B2;
+}
+.f{
+    color: rgb(61, 61, 250);
+}
+.rc{
+    gap: 4rem;
+    padding-top: 4rem;
+}
+.lil{
+    color: #9AA0B2;
+}
+.ab{
+    background-color: #F5F5F8;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+}
+.ourhistory{
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+.ourhistory h1{
+    color: #36187D;
+    font-size: 60px;
+}
+.ourhist h1{
+    color: #36187D;
+    font-size: 50px;
+}
+.h{
+    color: #36187D;
+}
+.num{
+    background-color: #F5F5F8;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+}
+.num h3{
+    padding: 1.5rem 2.5rem;
+    color: rgb(130, 130, 245);
+    font-size: 2rem;
+}
+.sub{
+    margin-top: 15rem;
+    border-radius: 50px;
+    width: 100%;
+    padding: 2rem 4rem;
+    background-color: #F5F5F8;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+}
+.sub a{
+    background-color: #35B8FC;
+    color: white;
+    font-size: 20px;
+    padding: 1.5rem 4rem;
+}
+.sub p{
+    padding-top: 2rem;
+}
+.sub h1{
+    font-size: 50px;
+    color: #36187D;
+}
+.zc{
+    margin-top: 15rem;
+}
+.xz{
+    margin-top: 15rem;
 
+}
+.zc h5{
+    color: #9AA0B2;
+}
+.za h5{
+    color: #9AA0B2;
+}
+.zc h1{
+    color: rgb(84, 84, 252);
+}
+.za{
+    border: none;
+    border-radius: 50px;
+    padding: 4rem 4rem;
+    background-color: #F5F5F8;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+}
+.fd h1{
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+    font-size: 50px;
+    color: #36187D;
+}
+.ba{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bf{
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+}
+.ba p{
+    color: #594194;
+}
+.ba h4{
+    color: #9AA0B2;
+}
+.hi{
+    color: #36187D;
+    margin-top: 15rem;
+}
+.ri-youtube-fill{
+    font-size: 2rem;
+    padding: 1.5rem 1.5rem;
+}
+.iconbc{
+    padding-left: 12rem;
+}
+.dec{
+    margin-top: 10rem;
+    /* gap: 2rem; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.kc{
+    background-color: #F2F3F7;
+    border-radius: 50px;
+    /* width: 45%; */
+    align-items: center;
+    padding: 2.5rem;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+}
+.kc h5{
+    color: #9AA0B2;
+}
+.ri-global-fill{
+    color: #0196E3;
+    background-color: #F2F3F7;
+    padding: 12px 17px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+}
+.ri-map-pin-line{
+    color: #0196E3;
+    padding: 12px 17px;
+    background-color: #F2F3F7;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+
+}
+.ri-phone-line{
+    color: #0196E3;
+    background-color: #F2F3F7;
+    padding: 18px 18px;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+}
+.kc h3{
+    color: #0196E3;
+}
+.kc h2{
+    
+    color: #36187D;
+}
+.tr{
+    margin-top: 8rem;
+}
+.tr a{
+    padding-right: 2rem;
+    color: #9AA0B2;
+    font-size: 25px;
+}
+.tr a:hover{
+    border-bottom: 2px solid #36187D;
+    color: #36187D;
+}
+.ri-vimeo-fill{
+    padding-left: 1.5rem;
+}
+.gt{
+    color: #9486BA;
+    padding: 0rem;
+    padding-left: 1rem;
+}
+.jk{
+    margin-top: 5rem;
+    padding-top: 1rem;
+    margin-bottom: 6rem;
+    border-top: 0.5px solid #9486BA;
+}
+.jk h4{
+    color: #9486BA;
 }
